@@ -8,7 +8,7 @@ import random
 
 
 # 连接 mongo 数据库, 主机是本机, 端口是默认的端口
-client = pymongo.MongoClient("mongodb://localhost:27017")
+client = pymongo.MongoClient("mongodb://192.168.1.104:27017")
 print('连接数据库成功', client)
 
 # 设置要使用的数据库
