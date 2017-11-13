@@ -6,7 +6,7 @@ from os.path import abspath
 
 from os.path import dirname
 
-sys.path.insert(0, abspath(dir(__file__)))
+sys.path.insert(0, abspath(dirname(__file__)))
 
 import app
 
